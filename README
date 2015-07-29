@@ -1,0 +1,14 @@
+The OpenEmbedded BSP layer for SM-T210 tablet
+This layer depends on:
+
+URI: git://github.com/openembedded/oe-core.git
+layers: meta
+branch: fido
+
+URI: git://github.com/openembedded/meta-oe.git
+layers: meta-oe
+branch: fido
+
+URI: git://github.com/shr-distribution/meta-smartphone.git
+layers: meta-android
+branch: fido
