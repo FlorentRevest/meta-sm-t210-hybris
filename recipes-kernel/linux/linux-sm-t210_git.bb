@@ -12,12 +12,10 @@ CMDLINE = "initrd=0x01100000,1m rw panic_debug uart_dma vmalloc=0x10000000 qhd_l
 inherit kernel_android
 
 SRC_URI = " \
-  git://github.com/gr8nole/android_kernel_samsung_lt02.git;protocol=git;branch=master \
+  git://github.com/gr8nole/android_kernel_samsung_lt02;protocol=https;branch=master \
   file://defconfig \
 "
-SRCREV = "${AUTOINC}"
+SRCREV = "2c3a46f2f81aef18758c93297858d689d4d3c4bd"
 
 S = "${WORKDIR}/git"
-
 PV = "3.4.5"
-inherit machine_kernel_pr
