@@ -18,6 +18,8 @@ inherit kernel_android
 SRC_URI = " \
   git://github.com/gr8nole/android_kernel_samsung_lt02;protocol=https;branch=master \
   file://defconfig \
+  file://0001-Fix-memset-related-crashes.patch \
+  file://0002-Fix-the-memset-fix.patch \
 "
 SRCREV = "2c3a46f2f81aef18758c93297858d689d4d3c4bd"
 
